@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import MovieList from './MovieList';
-//import  './Movie.css';
 export default class Movie extends Component {
 
     static PropTypes = {
@@ -11,9 +10,8 @@ export default class Movie extends Component {
     }
 
     componentDidMount() {
-        this.props.fetchMovieList();
-        //this.setState({ topMovies: this.props.topMovies })
-    } //thi
+        this.props.fetchMovieList();  
+    } 
     
     render() {
 

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Dropdown } from 'semantic-ui-react';
 import { List } from 'semantic-ui-react';
-//import  Modal  from 'semantic-ui-react';
 import { Image } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import './Movie.css';
@@ -19,12 +18,7 @@ export default class MovieList extends Component {
         displayModal: false,
     }
 
-    getMoviesByOrder(orederBy) {
-        // if (orderBy === 'rank') {
 
-
-        // }
-    }
 
     getOptions() {
         const orderSelect = this.props.movies.components
@@ -80,7 +74,6 @@ export default class MovieList extends Component {
                 <div className="movie-card">
                     {this.state.movieList && this.state.movieList
                         .map((movie1, key) => {
-                            //return movie.map((item) => {
 
                             return (
 
