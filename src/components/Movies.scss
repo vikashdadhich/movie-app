@@ -1,0 +1,43 @@
+
+.movie-app{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 30px;
+
+    .dropdown-movie{
+        margin-bottom: 20px;
+    }
+    .ui.fluid.dropdown {
+        display: block;
+        width: 50%;
+        min-width: 0;
+    }
+    .movie-card{
+        display: flex;
+        flex-direction: column;
+
+        .image-list{
+            display:flex;
+            flex-direction: row;
+            margin-bottom: 10px;
+            img{
+                max-width: 150px;
+            }
+            .ui.image {
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                max-width: 150px;
+                background-color: transparent;
+            }
+
+        }
+    }
+}
+
+
+
+
+
+

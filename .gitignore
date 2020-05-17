@@ -1,0 +1,12 @@
+node_modules/
+dist/
+lib/
+coverage/
+es/
+
+*.iml
+.vscode
+*.swp
+*.swo
+*.css
+package-lock.json

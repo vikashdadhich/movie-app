@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-
-//import Counter from './containers/Counter/Counter';
-import Movie from './containers/MovieContainer'
-//import './App.css';
+import Movie from './containers/MovieContainer';
+import 'semantic-ui-css/semantic.min.css';
 
  class App extends Component {
   render() {

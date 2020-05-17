@@ -1,9 +1,9 @@
 
 const initialState = {
-    topMovies: {}
+    topMovies: null
 }
 
-const reducer = (state = initialState, action) => {
+const MovieStore = (state = initialState, action) => {
     if (action.type === 'SHOW_MOVIES') {
         return {
             topMovies: {
@@ -69,4 +69,4 @@ const reducer = (state = initialState, action) => {
     return state;
 };
 
-export default reducer;
+export default MovieStore;
