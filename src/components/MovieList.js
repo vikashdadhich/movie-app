@@ -27,7 +27,7 @@ const MovieList = (props) => (
     
                                     <div key={key} className="image-list">
                                         <Image src={movie1.imageUrl} spaced={true}
-                                            onClick={() => props.handleClick(movie1, key)} />
+                                        onClick={() => props.handleClick(movie1, key)} />
                                         {props.keyOfmovie === key &&
                                             <List>
                                                 <List.Item>
